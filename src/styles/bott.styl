@@ -1,0 +1,80 @@
+.bott
+  size 100vw 22vw
+  position fixed
+  background url(../assets/Hello/Combined\ Shape.png) no-repeat 100% 100%
+  background-size contain
+  bottom 0
+  z-index: 9
+  display flex
+
+.b-l, .b-m, .b-r
+  transform translate(0, 10vw)
+  flex 1
+  height 100%
+  &:active
+    opacity .8
+  a
+    display block
+    size 100%
+
+
+.b-l
+  height 50%
+  background url(../assets/Hello/Group\ 7.png) no-repeat center 100%
+  background-size contain
+
+.b-r
+  height 50%
+  background url(../assets/Hello/Group.png) no-repeat center 100%
+  background-size contain
+  
+.b-m
+  height 85%
+  transform translate(0, 1.7vw)
+  background url(../assets/Hello/Group\ 8.png) no-repeat center 100%
+  background-size contain
+
+.showm
+  background white
+  size 100vw 35vh
+  position fixed
+  bottom -35vh
+  z-index 11
+  transition all .3s ease
+  
+  
+  &.ACTIVE
+    transform translate(0, -35vh)
+
+.shaixuan
+  margin 10vw 0
+  margin-left 20vw
+  size 25vw 25vw
+  background url(../assets/Hello/shaixuan.png) no-repeat center center
+  background-size contain
+  float left
+  
+.suiji
+  margin 10vw 0
+  margin-right 20vw
+  size 25vw 25vw
+  background url(../assets/Hello/suiji.png) no-repeat center center
+  background-size contain
+  float right
+  
+.m-canel
+  size 6vw
+  margin 0 auto
+  margin-top 25vh
+  background url(../assets/Hello/Group\ 4.png) no-repeat center center
+  background-size contain
+
+.cover
+  size 100vw 100vh
+  position fixed
+  z-index -1
+  transition all .3s ease
+  
+  &.ACTIVE
+    background rgba(0, 0, 0, .5)
+    z-index 10
